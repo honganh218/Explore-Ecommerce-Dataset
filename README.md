@@ -1,1 +1,3 @@
-# Explore-Ecommerce-Dataset
+I. Introduction
+The "ga_sessions_366" table is a part of the "google_analytics_sample" dataset and it holds information about website sessions tracked by Google Analytics. This table covers a 366-day period and provides detailed insights into how users interact with the website and how the website performs. It includes important data like how long each session lasts, the number of pages viewed, where the users are located, and how they found the website. This information is crucial for website owners and marketers to make smart decisions about their online presence and improve user engagement and conversion rates.
+I will explore this dataset using SQL on Google Bigquery.
