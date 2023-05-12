@@ -7,6 +7,7 @@ The ***"ga_sessions_366"*** table is a part of the ***"google_analytics_sample"*
 <br> For more information, please visit [[UA] BigQuery Export schema](https://support.google.com/analytics/answer/3437719?hl=en).
 
 # **Exploring the Dataset**
+*:computer:Interact the query in [Google BigQuery](https://console.cloud.google.com/bigquery?sq=396200401896:ebb63e6123b645aa9d8c2c0f232cdf30)*
 ### **Query 01: Calculate total visit, pageview, transaction and revenue for January, February and March 2017 order by month**
 The table is stored in an array format, so we query ***"ga_sessions_2017"*** and ***"table_suffix"*** to filter for the month specified in the question.
 <br> The ***'date'*** column is defined as a ***'string'*** type; therefore, ***PARSE_DATE*** is used to change the data type and ***FORMAT_DATE*** is used to make the result more readable.
