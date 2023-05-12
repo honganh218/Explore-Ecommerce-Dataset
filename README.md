@@ -46,6 +46,5 @@ The idea is to create two CTEs independently. The first CTE will calculate the a
 ![image](https://github.com/honganh218/Explore-Ecommerce-Dataset/assets/133098903/6bc7d626-3f3d-406c-b413-71adfb13a0dc)
 <br> Part of result
 <br> ![image](https://github.com/honganh218/Explore-Ecommerce-Dataset/assets/133098903/4e23f338-8801-43c9-b743-a4af84407348)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 
 
