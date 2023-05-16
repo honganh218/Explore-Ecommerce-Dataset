@@ -1,12 +1,13 @@
-# **Introduction**
+# [SQL]: Website Performance Analysis of Google Analytics record
+## **Introduction**
 The ***"ga_sessions_366"*** table is a part of the ***"google_analytics_sample"*** dataset and it holds information about website sessions tracked by Google Analytics. This table covers a 366-day period and provides detailed insights into how users interact with the website and how the website performs. It includes important data like how long each session lasts, the number of pages viewed, where the users are located, and how they found the website. This information is crucial for website owners and marketers to make smart decisions about their online presence and improve user engagement and conversion rates.
 <br>
 <br> I will explore this dataset using SQL on Google Bigquery.
-## **Table schema**
+### **Table schema**
 <br> ![image](https://github.com/honganh218/Explore-Ecommerce-Dataset/assets/133098903/522fefc3-3ced-4b19-8f7e-df013cd7eb08)
 <br> For more information, please visit [[UA] BigQuery Export schema](https://support.google.com/analytics/answer/3437719?hl=en).
 
-# **Exploring the Dataset**
+## **Exploring the Dataset**
 *:computer:Interact the query in [Google BigQuery](https://console.cloud.google.com/bigquery?sq=396200401896:ebb63e6123b645aa9d8c2c0f232cdf30)*
 ### **Query 01: Calculate total visit, pageview, transaction and revenue for January, February and March 2017 order by month**
 The table is stored in an array format, so we query ***"ga_sessions_2017"*** and ***"table_suffix"*** to filter for the month specified in the question.
